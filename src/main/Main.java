@@ -11,8 +11,8 @@ public class Main {
         Sum sum = new Sum();
         int n1, n2, total;
 
-              n1   = Integer.parseInt(JOptionPane.showInputDialog("ingrese el numero uno "));
-            n2 = Integer.parseInt(JOptionPane.showInputDialog("ingrese el numero dos "));
+              n1   = Integer.parseInt(JOptionPane.showInputDialog("ingresa el numero uno "));
+            n2 = Integer.parseInt(JOptionPane.showInputDialog("ingresa el numero dos "));
         total = sum.suma(n1, n2);
 
         JOptionPane.showMessageDialog(null, "la suma es " + total);
